@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-1 , .box-2 ,.box-3, .box-4, .box-5 ,.box-6{
+  width: 200px;
+  height: 200px;
+  background: rgba(239, 179, 13, 0.788);
+  margin: 30px 30px 100px 30px;
+}
+.box-4 ul{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+.small_box{
+  margin-top: 10px;
+  width: 35px;
+  height: 35px;
+  background: white;
+  list-style: none;
+
+}
+
+.Box-6{
+  margin-left: 30px;
+}
+
+.Box-6 button{
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 5px 10px 20px 0px;
+  border-radius: 2px;
+  background: rgba(255, 0, 0, 0.697);
+  width: 150px;
+  color: white;
+  border: none;
+  outline: none;
+}
